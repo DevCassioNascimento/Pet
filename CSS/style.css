@@ -30,7 +30,19 @@
     height: 200px;
     width:300px ;
     background-size: cover;
+}
 
+h3 {
+    margin-left: 110px;
+    align-items: center;
+    font-size: 18px;
+    color: #E0E0E0 ;
+}
+
+h2{
+    margin-left: 110px ;
+    font-size: 23px;
+    color: #E0E0E0 ;
 }
 
 
