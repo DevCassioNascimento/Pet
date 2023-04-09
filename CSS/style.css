@@ -1,21 +1,32 @@
-.topo {
+#topo {
     position: fixed;
     border-bottom: #E0E0E0 2px solid;
     width: 100%;
 }
 
-.topo .container-topo{
+#topo .container-topo{
  margin-top: 10px;
  margin-left: 500px;
  margin-top: 15px;
+ 
 }
 
-.topo .container-topo a{
+#topo .container-topo a{
  text-decoration: none;
  font-size: 32px;
  padding: 20px;
  color: #3FA5BF;
 }
+
+#topo .container-topo a:hover{
+color: darkslategrey;
+margin-bottom: 40px;
+transition: .5s ;
+cursor: pointer;
+}
+
+
+
 
 #sidebar{
     height: 100%;
@@ -45,5 +56,51 @@ h2{
     color: #E0E0E0 ;
 }
 
+/* banhos*/
 
+#banho {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 320px;  
+}
+
+#banho-img {
+    margin-top: 30px;
+    position: absolute;
+    display:inline-block;
+    background-size: cover;
+    height: 200px;
+    width: 724px
+}
+
+
+
+#img1 {
+   background-image: url(../img/cachobanho1.jpg);
+   margin-left: 0%;
+   height: 200px;
+   width: 18px;
+    
+}
+
+#img2 {
+    background-image: url(../img/cachorrobanho2.jpg);
+    height: 200px;
+    width: 18px;
+   
+}
+
+#img3 {
+    background-image: url(../img/cachorrobanho3.jpg);
+    height: 200px;
+   width: 18px;
+    
+}
+
+#img4 {
+    background-image: url(../img/cachorrobanho4.jpg);
+    height: 200px;
+   width: 18px;
+    margin-right: 0%;
+}
 
