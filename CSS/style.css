@@ -63,44 +63,43 @@ h2{
     margin-top: 40px;
     margin-left: 320px;  
 }
-
 #banho-img {
-    margin-top: 30px;
-    position: absolute;
-    display:inline-block;
-    background-size: cover;
-    height: 200px;
-    width: 724px
+    display: inline-block;
 }
+
 
 
 
 #img1 {
    background-image: url(../img/cachobanho1.jpg);
+   background-size: cover;
    margin-left: 0%;
    height: 200px;
-   width: 18px;
+   width: 250px;
     
 }
 
 #img2 {
     background-image: url(../img/cachorrobanho2.jpg);
+    background-size: cover;
     height: 200px;
-    width: 18px;
+    width: 250px;
    
 }
 
 #img3 {
     background-image: url(../img/cachorrobanho3.jpg);
+    background-size: cover;
     height: 200px;
-   width: 18px;
+   width: 250px;
     
 }
 
 #img4 {
     background-image: url(../img/cachorrobanho4.jpg);
+    background-size: cover;
     height: 200px;
-   width: 18px;
+   width: 250px;
     margin-right: 0%;
 }
 
