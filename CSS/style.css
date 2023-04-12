@@ -1,5 +1,5 @@
 #topo {
-    position: fixed;
+    position:absolute;
     border-bottom: #E0E0E0 2px solid;
     width: 100%;
 }
@@ -103,3 +103,47 @@ h2{
     margin-right: 0%;
 }
 
+h2{
+    font-size: 40px;
+    color:#3FA5BF ;
+    text-align: center;
+}
+
+#tosa-img {
+    display: inline-block;
+    
+}
+
+#img5{
+ background-image: url(../img/tosa1.jpg);
+ height: 200px;
+ width: 250px;
+ background-size: cover;
+}
+
+#img6{
+background-image: url(../img/tosa2.jpg);
+height: 200px;
+width: 250px;
+background-size: cover;
+}
+
+#img7{
+    background-image: url(../img/tosa3.jpg);
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+
+}
+
+#img8{
+    background-image: url(../img/tosa4.jpg);
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+
+}
+
+p{
+    font-size: 18px;
+}
