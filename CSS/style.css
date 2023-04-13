@@ -1,8 +1,10 @@
+
 #topo {
-    position:absolute;
+    position: absolute;
     border-bottom: #E0E0E0 2px solid;
     width: 100%;
 }
+
 
 #topo .container-topo{
  margin-top: 10px;
@@ -28,12 +30,13 @@ cursor: pointer;
 
 
 
+
 #sidebar{
-    height: 100%;
+    height: 100vmax;
     width: 300px;
     background-color: #3FA5BF;
-    position: fixed;
-    margin-top: 38px;
+    position: absolute;
+    margin-top: 55px;
 }
 
  .logo-sidebar {
@@ -60,7 +63,7 @@ h2{
 
 #banho {
     position: absolute;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 320px;  
 }
 #banho-img {
@@ -146,4 +149,53 @@ background-size: cover;
 
 p{
     font-size: 18px;
+}
+
+#produtos{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
+.produtos-img{
+    display: inline-block;
+}
+
+#img9{
+    background-image: url(../img/produtos1.jpg);
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+
+}
+
+#img10{
+    background-image: url(../img/produtos2.jpg);
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+}
+
+#img11{
+    background-image: url(../img/tosa3.jpg);
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+}
+
+#loja{
+    position: absolute;
+    background-color: #3FA5BF;
+    margin-top: 40px;
+    height: 180px;
+    width: 100%;
+}
+
+
+.rodape{
+    margin-left: 5px;
+    margin-top: 490px;
+    height: 150px;
+    width: 100%;
+    background-color: #3FA5BF;
 }
