@@ -154,7 +154,7 @@ p{
 #produtos{
     position: absolute;
     margin-top: 40px;
-    margin-left: 180px;
+    margin-left: 10px;
 }
 
 .produtos-img{
@@ -194,8 +194,20 @@ p{
 
 .rodape{
     margin-left: 5px;
-    margin-top: 490px;
+    margin-top: 540px;
     height: 150px;
     width: 100%;
     background-color: #3FA5BF;
+}
+
+.contato{
+    text-align: center;
+}
+
+.contato{
+
+}
+
+footer{
+    height: 160px;
 }
